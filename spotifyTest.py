@@ -31,6 +31,9 @@ playlist_link = 'https://open.spotify.com/playlist/2KoqkwAUVt72zMyy3N3ezq?si=2f6
 # Fetch playlist tracks
 playlist_tracks = fetch_playlist_tracks(playlist_link)
 
+playlist=[]
+
 # Iterate over tracks and print track names
 for idx, track in enumerate(playlist_tracks['items']):
+    playlist.append(track['track']['name'])    
     print(f"{idx + 1}: {track['track']['name']}")
