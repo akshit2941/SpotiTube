@@ -1,4 +1,4 @@
-# Spotify2YouTube
+# SpotiTube
 
 Spotify2YouTube is a script that allows users to convert their Spotify playlists into YouTube playlists, enabling easy access to their favorite tracks on a different platform. Users can download the converted playlists for offline listening.
 
